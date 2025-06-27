@@ -3,7 +3,7 @@
 This project is a **Medical Image Multi-Viewer** tool designed to visualize medical images in **axial**, **coronal**, and **sagittal** planes. The application provides a user-friendly interface with features to manipulate image views, adjust brightness and contrast, and zoom into specific regions of interest. The tool supports medical image files in the **NIfTI format (.nii, .nii.gz)**.
 
 ---
- ![Loading Animation](https://raw.githubusercontent.com/abdullah-gamil05/ImageBasedAnatomy_Tasks/main/assets/Gif.gif)
+ ![Loading Animation](https://raw.githubusercontent.com/3bdullah-Gamil/mpr-medical-imaging/main/results/reconstructed_video.gif)
 
  ## 📋 Project Overview
 This MultiPlanar Reconstruction (MPR) tool was developed as part of the Introduction to Imaging and Image-Based Anatomy course at the Faculty of Engineering, Cairo University. The project provides detailed views of anatomical structures for diagnostic purposes through interactive multiplanar visualization.
