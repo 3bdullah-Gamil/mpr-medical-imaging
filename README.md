@@ -89,15 +89,14 @@ cd mpr-medical-imaging
    ```
 
 ## Example Views
-
 ### **Axial View**
-<img src="https://raw.githubusercontent.com/abdullah-gamil05/ImageBasedAnatomy_Tasks/main/task1_MPR/results/axial_view.png" alt="Axial View" width="400" height="300" />
+<img src="https://raw.githubusercontent.com/3bdullah-Gamil/mpr-medical-imaging/main/results/axial_view.png" alt="Axial View" width="400" height="300" />
 
 ### **Coronal View**
-<img src="https://raw.githubusercontent.com/abdullah-gamil05/ImageBasedAnatomy_Tasks/main/task1_MPR/results/coronal_view.png" alt="Coronal View" width="400" height="300" />
+<img src="https://raw.githubusercontent.com/3bdullah-Gamil/mpr-medical-imaging/main/results/coronal_view.png" alt="Coronal View" width="400" height="300" />
 
 ### **Sagittal View**
-<img src="https://raw.githubusercontent.com/abdullah-gamil05/ImageBasedAnatomy_Tasks/main/task1_MPR/results/sagittal_view.png" alt="Sagittal View" width="400" height="300" />
+<img src="https://raw.githubusercontent.com/3bdullah-Gamil/mpr-medical-imaging/main/results/sagittal_view.png" alt="Sagittal View" width="400" height="300" />
 
 ---
 
