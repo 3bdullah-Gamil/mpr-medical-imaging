@@ -82,23 +82,7 @@ cd mpr-medical-imaging
 ├── setup.py                     # Package installation script
 ├── .gitignore                   # Git ignore file
 ├── src/                        # Source code directory
-│   ├── __init__.py
-│   ├── main.py                 # Main application entry point
-│   ├── core/                   # Core MPR functionality
-│   │   ├── __init__.py
-│   │   ├── mpr_viewer.py       # Main MPR viewer class (refactored from your code)
-│   │   ├── image_processor.py  # Image processing utilities
-│   │   └── file_handler.py     # File I/O operations
-│   ├── ui/                     # User interface components
-│   │   ├── __init__.py
-│   │   ├── main_window.py      # Main window UI
-│   │   ├── view_widgets.py     # Individual view widgets
-│   │   ├── controls.py         # UI controls (sliders, buttons)
-│   │   └── styles.py           # UI styling
-│   └── utils/                  # Utility functions
-│       ├── __init__.py
-│       ├── constants.py        # Application constants
-│       └── helpers.py          # Helper functions
+│   ├── mpr_code.py
 ├── dataset                       # Sample data and test files
 ├── results
 
