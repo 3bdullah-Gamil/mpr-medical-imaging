@@ -76,23 +76,32 @@ cd mpr-medical-imaging
 
 ## 📁 Project Structure
 ```bash
-   mpr-tool/
-├── src/
-│   ├── main.py              # Main application entry point
-│   ├── mpr_widget.py        # Core MPR visualization widget
-│   ├── image_processor.py   # Image processing utilities
-│   └── ui/
-│       ├── main_window.py   # Main GUI window
-│       └── controls.py      # UI control components
-├── data/
-│   └── sample/              # Sample medical datasets
-├── docs/
-│   ├── user_guide.md        # User documentation
-│   └── technical_specs.md   # Technical specifications
-├── tests/
-│   └── test_mpr.py          # Unit tests
-├── requirements.txt         # Python dependencies
-└── README.md               # This file
+   mpr-medical-imaging/
+├── README.md                    # Main project documentation
+├── requirements.txt             # Python dependencies
+├── setup.py                     # Package installation script
+├── .gitignore                   # Git ignore file
+├── src/                        # Source code directory
+│   ├── __init__.py
+│   ├── main.py                 # Main application entry point
+│   ├── core/                   # Core MPR functionality
+│   │   ├── __init__.py
+│   │   ├── mpr_viewer.py       # Main MPR viewer class (refactored from your code)
+│   │   ├── image_processor.py  # Image processing utilities
+│   │   └── file_handler.py     # File I/O operations
+│   ├── ui/                     # User interface components
+│   │   ├── __init__.py
+│   │   ├── main_window.py      # Main window UI
+│   │   ├── view_widgets.py     # Individual view widgets
+│   │   ├── controls.py         # UI controls (sliders, buttons)
+│   │   └── styles.py           # UI styling
+│   └── utils/                  # Utility functions
+│       ├── __init__.py
+│       ├── constants.py        # Application constants
+│       └── helpers.py          # Helper functions
+├── dataset                       # Sample data and test files
+├── results
+
    ```
 
 ## Example Views
